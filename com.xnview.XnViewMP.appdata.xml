@@ -64,13 +64,13 @@
   <summary xml:lang="zh_TW">檢視和整理您的影像</summary>
   <description>
     <p>XnView MP is the enhanced version of XnView Classic. It is a powerful picture viewer, browser and converter for Windows, Mac and Linux. This software can read more than 500 formats change picture size, reduce picture file size and much more!</p>
-    <p>Features:</p>
+    <p>Features of XnViewMP:</p>
     <ul>
       <li>XnView MP supports more than 500 image formats (including Multipage and animated still formats APNG, TIFF, GIF, ICO, etc..) and export to about 70 different file formats</li>
       <li>XnView MP comes with an easy to use yet powerful batch conversion module. This same module also powers XnConvert</li>
       <li>Virtually all of standard XnView's much loved features have been preserved in XnView MP and many features have actually been tweaked and enhanced</li>
     </ul>
-    <p>Compared to XnView:</p>
+    <p>Compared to XnView Classic:</p>
     <ul>
       <li>Considerable improvements have been made in terms of performance (speed-optimized loading, improved caching, multi-core processing, 64bits version, etc...)</li>
       <li>Windows, Mac OS X and Linux are now supported in both 32 and 64 bit versions</li>
