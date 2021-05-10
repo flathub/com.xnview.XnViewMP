@@ -95,7 +95,7 @@
   </content_rating>
   <releases>
 	<release version="0.98.3" date="2021-05-06">
-		<url>https://newsgroup.xnview.com/viewtopic.php?f=82&t=41877</url>
+		<url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=41877</url>
 	</release>
 	<release version="0.98.2" date="2021-02-22" />
     <release version="0.93.1" date="2019-02-28" />
