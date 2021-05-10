@@ -1,3 +1,17 @@
+[Desktop Entry]
+Encoding=UTF-8
+Terminal=false
+TryExec=xnview
+Exec=xnview %F
+Icon=com.xnview.XnViewMP
+Type=Application
+Categories=Graphics;Viewer;RasterGraphics;2DGraphics;Photography;Qt;
+StartupNotify=true
+Name=XnView MP
+MimeType=image/bmp;image/jpeg;image/png;image/tiff;image/gif;image/g3fax;image/pcx;image/svg+xml;image/x-compressed-xcf;image/x-fits;image/x-icon;image/x-portable-anymap;image/x-portable-bitmap;image/x-portable-graymap;image/x-portable-pixmap;image/x-psd;image/x-sgi;image/x-tga;image/x-wmf;image/x-xbitmap;image/x-xcf;image/x-xpixmap;image/x-xwindowdump;
+X-Desktop-File-Install-Version=0.26
+StartupWMClass=XnView
+
 GenericName=Image Viewer
 GenericName[ar]=عارض الصّور
 GenericName[bs]=Preglednik slika
