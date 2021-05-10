@@ -2,7 +2,8 @@
 <component type="desktop">
   <id>com.xnview.XnViewMP</id>
   <metadata_license>CC0</metadata_license>
-  <project_license>LicenseRef-proprietary=https://github.com/flathub/com.xnview.XnViewMP/blob/master/XNVIEWMP_LICENSE</project_license>
+  <project_license>LicenseRef-proprietary=https://raw.githubusercontent.com/flathub/com.xnview.XnViewMP/master/XNVIEWMP_LICENSE
+  </project_license>
   <name>XnView MP</name>
   <summary>View and organize your images</summary>
   <summary xml:lang="az">Rəsmlərinizi nümayiş və idarə edin</summary>
@@ -76,13 +77,12 @@
   </kudos>
   <screenshots>
     <screenshot type="default">
-      <image>https://www.xnview.com/assets/img/screenshots/xnviewmp-win-01.jpg</image>
-    </screenshot>
+      <image>https://raw.githubusercontent.com/flathub/com.xnview.XnViewMP/master/screenshots/screenshot1.png</image>
+      <caption>Main window</caption>
+    </screenshot>    
     <screenshot>
-      <image>https://www.xnview.com/assets/img/screenshots/xnviewmp-win-02.jpg</image>
-    </screenshot>
-    <screenshot>
-      <image>https://www.xnview.com/assets/img/screenshots/xnviewmp-win-03.jpg</image>
+      <image>https://raw.githubusercontent.com/flathub/com.xnview.XnViewMP/master/screenshots/screenshot2.png</image>
+      <caption>Image editing</caption>
     </screenshot>
   </screenshots>
   <provides>
