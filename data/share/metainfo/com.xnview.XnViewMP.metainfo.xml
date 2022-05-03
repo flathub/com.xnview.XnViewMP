@@ -94,6 +94,9 @@
     <content_attribute id="social-info">mild</content_attribute>
   </content_rating>
   <releases>
+    <release version="1.00" date="2022-05-03">
+      <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=43307</url>
+    </release>
     <release version="0.99.7" date="2022-01-13">
       <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=42885</url>
     </release>
