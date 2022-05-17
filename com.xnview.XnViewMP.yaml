@@ -13,6 +13,8 @@ finish-args:
   - --socket=pulseaudio
   # Filesystem access
   - --filesystem=home
+  - --filesystem=/media
+  - --filesystem=/run/media
   - --filesystem=xdg-config/kdeglobals:ro
   # Network access
   - --share=network
