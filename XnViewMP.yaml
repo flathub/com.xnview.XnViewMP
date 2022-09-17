@@ -2,8 +2,8 @@ name: XnViewMP
 buildsystem: simple
 sources:
   - type: archive
-    url: https://download.xnview.com/old_versions/XnViewMP-1010-linux-x64.tgz
-    sha256: 6b02feeece34a60c086a6e54f5259f7a0f048b1f9c1e3defde9684b84a246fd3
+    url: https://download.xnview.com/old_versions/XnViewMP-1.3.0-linux-x64.tgz
+    sha256: 713fcb92e95eca179e02c62b9416566821a0b6e81870ad1d49c379ebf900406e
     strip-components: 0
   # Icons, desktop file and metainfo
   - type: dir
