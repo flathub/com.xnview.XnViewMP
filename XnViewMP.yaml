@@ -3,7 +3,7 @@ buildsystem: simple
 sources:
   - type: archive
     url: https://download.xnview.com/old_versions/XnView_MP/XnView_MP-1.4.0-linux-x64.tgz
-    sha256: 6EF3D6EE272CC9293084952A90BF936131128671C5F74791A84185AD733EDBAE
+    sha256: 50d7c897f10ffdeaee2b104c222bf8fa86b35a798f29b935cade80cbebfc4cc6
     strip-components: 0
   # Icons, desktop file and metainfo
   - type: dir
