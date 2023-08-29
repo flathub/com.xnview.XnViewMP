@@ -16,8 +16,6 @@ finish-args:
   - --filesystem=/media
   - --filesystem=/run/media
   - --filesystem=xdg-config/kdeglobals:ro
-  # Network access
-  - --share=network
   # OpenGL access
   - --device=dri
 tags:
