@@ -1,0 +1,11 @@
+name: libheif
+buildsystem: cmake-ninja
+config-opts:
+  - -DCMAKE_BUILD_TYPE=Release
+  - -DWITH_EXAMPLES=OFF
+cleanup:
+  - "/bin"
+sources:
+  - url: https://github.com/strukturag/libheif/releases/download/v1.17.6/libheif-1.17.6.tar.gz
+    sha256: 8390baf4913eda0a183e132cec62b875fb2ef507ced5ddddc98dfd2f17780aee
+    type: archive
