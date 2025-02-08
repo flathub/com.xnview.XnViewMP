@@ -6,6 +6,6 @@ config-opts:
 cleanup:
   - "/bin"
 sources:
-  - url: https://github.com/strukturag/libheif/releases/download/v1.18.2/libheif-1.19.5.tar.gz
-    sha256: d3cf0a76076115a070f9bc87cf5259b333a1f05806500045338798486d0afbaf
+  - url: https://github.com/strukturag/libheif/releases/download/v1.18.2/libheif-1.18.2.tar.gz
+    sha256: c4002a622bec9f519f29d84bfdc6024e33fd67953a5fb4dc2c2f11f67d5e45bf
     type: archive
