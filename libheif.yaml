@@ -3,9 +3,10 @@ buildsystem: cmake-ninja
 config-opts:
   - -DCMAKE_BUILD_TYPE=Release
   - -DWITH_EXAMPLES=OFF
+  - -DCMAKE_COMPILE_WARNING_AS_ERROR=OFF
 cleanup:
   - "/bin"
 sources:
-  - url: https://github.com/strukturag/libheif/releases/download/v1.18.2/libheif-1.19.5.tar.gz
+  - url: https://github.com/strukturag/libheif/releases/download/v1.19.5/libheif-1.19.5.tar.gz
     sha256: d3cf0a76076115a070f9bc87cf5259b333a1f05806500045338798486d0afbaf
     type: archive
