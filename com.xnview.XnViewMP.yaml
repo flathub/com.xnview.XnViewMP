@@ -23,7 +23,6 @@ tags:
 modules:
   - kerberos.yaml
   - XnViewMP.yaml
-  - libheif.yaml
 cleanup:
   - /share/man
   - /XnView/XnView.desktop*
