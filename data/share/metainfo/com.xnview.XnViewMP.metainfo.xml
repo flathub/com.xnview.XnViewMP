@@ -2,7 +2,7 @@
 <component type="desktop">
   <id>com.xnview.XnViewMP</id>
   <metadata_license>CC0</metadata_license>
-  <project_license>LicenseRef-proprietary=https://raw.githubusercontent.com/flathub/com.xnview.XnViewMP/master/XNVIEWMP_LICENSE
+  <project_license>LicenseRef-proprietary=https://github.com/flathub/com.xnview.XnViewMP/blob/f3ee192ced27e9b93a58ad7191b61528031cd68c/xnview-license.txt
   </project_license>
   <name>XnView MP</name>
   <summary>View and organize your images</summary>
