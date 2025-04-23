@@ -66,6 +66,8 @@ modules:
         path: data
       - type: file
         path: com.xnview.XnViewMP.metainfo.xml
+      - type: file
+        path: com.xnview.XnViewMP.desktop
     build-commands:
       - |
         find "XnView" -xtype f -executable \( -iname '*.jpg' -o -iname '*.png' -o -iname '*.txt' -o -iname '*.zip' \) -exec chmod -x {} +;
