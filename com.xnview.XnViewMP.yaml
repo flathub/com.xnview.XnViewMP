@@ -78,10 +78,9 @@ modules:
       - install -Dm644 com.xnview.XnViewMP.metainfo.xml -t ${FLATPAK_DEST}/share/appdata/
       - install -Dm644 com.xnview.XnViewMP.desktop -t ${FLATPAK_DEST}/share/applications/
       - install -d /app/share/icons
-      - |
-        for file in $(find share -type f -name *.*); do
-            install -p -D -m 0644 "${file}" "${FLATPAK_DEST}/${file}";
-        done;
+      - for icon_size in 16 22 24 32 36 48 64 72 96 128 192 256 512; do install -Dm644 data/share/icons/hicolor/${icon_size}x${icon_size}/apps/com.xnview.XnViewMP.png
+        ${FLATPAK_DEST}/share/icons/hicolor/${icon_size}x${icon_size}/apps/com.xnview.XnViewMP.png;
+        done
 cleanup:
   - /share/man
   - /XnView/XnView.desktop*
