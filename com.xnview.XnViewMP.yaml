@@ -74,6 +74,8 @@ modules:
         ln -s "${FLATPAK_DEST}/XnView/xnview.sh" "${FLATPAK_DEST}/bin/xnview";
       - ln -s /usr/lib/x86_64-linux-gnu/libbz2.so.1.0.8 "${FLATPAK_DEST}/XnView/lib/libbz2.so.1.0";
       - install -Dm644 com.xnview.XnViewMP.metainfo.xml -t ${FLATPAK_DEST}/share/appdata/
+      - install -Dm644 com.xnview.XnViewMP.desktop -t ${FLATPAK_DEST}/share/applications/
+      - install -d /app/share/icons
       - |
         for file in $(find share -type f -name *.*); do
             install -p -D -m 0644 "${file}" "${FLATPAK_DEST}/${file}";
