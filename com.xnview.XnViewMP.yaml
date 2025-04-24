@@ -64,7 +64,6 @@ modules:
       # Icons, desktop file and metainfo
       - type: dir
         path: data
-        strip-components: 0
       - type: file
         path: com.xnview.XnViewMP.metainfo.xml
       - type: file
@@ -79,7 +78,7 @@ modules:
       - install -Dm644 com.xnview.XnViewMP.metainfo.xml -t ${FLATPAK_DEST}/share/appdata/
       - install -Dm644 com.xnview.XnViewMP.desktop -t ${FLATPAK_DEST}/share/applications/
       - install -d /app/share/icons
-      - for icon_size in 16 22 24 32 36 48 64 72 96 128 192 256 512; do install -Dm644 data/share/icons/hicolor/${icon_size}x${icon_size}/apps/com.xnview.XnViewMP.png
+      - for icon_size in 16 22 24 32 36 48 64 72 96 128 192 256 512; do install -Dm644 share/icons/hicolor/${icon_size}x${icon_size}/apps/com.xnview.XnViewMP.png
         ${FLATPAK_DEST}/share/icons/hicolor/${icon_size}x${icon_size}/apps/com.xnview.XnViewMP.png;
         done
 cleanup:
