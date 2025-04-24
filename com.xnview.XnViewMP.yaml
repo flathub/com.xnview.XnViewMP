@@ -64,6 +64,7 @@ modules:
       # Icons, desktop file and metainfo
       - type: dir
         path: data
+        strip-components: 0
       - type: file
         path: com.xnview.XnViewMP.metainfo.xml
       - type: file
