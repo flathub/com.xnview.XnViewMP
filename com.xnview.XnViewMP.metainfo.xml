@@ -94,6 +94,9 @@
     <content_attribute id="social-info">mild</content_attribute>
   </content_rating>
   <releases>
+    <release version="1.9.0" date="2025-05-26">
+      <description></description>
+    </release>
     <release version="1.8.8" date="2025-04-14">
     </release>
     <release version="1.8.6" date="2025-02-14">
@@ -192,8 +195,8 @@
     <release version="0.98.3" date="2021-05-06">
       <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=41877</url>
     </release>
-    <release version="0.98.2" date="2021-02-22" />
-    <release version="0.93.1" date="2019-02-28" />
-    <release version="0.93" date="2019-01-31" />
+    <release version="0.98.2" date="2021-02-22"/>
+    <release version="0.93.1" date="2019-02-28"/>
+    <release version="0.93" date="2019-01-31"/>
   </releases>
 </component>

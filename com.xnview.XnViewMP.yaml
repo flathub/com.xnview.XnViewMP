@@ -53,8 +53,8 @@ modules:
     buildsystem: simple
     sources:
       - type: archive
-        url: https://download.xnview.com/old_versions/XnView_MP/XnView_MP-1.8.8-linux-x64.tgz
-        sha256: 57d0f9de81b11b88bf87df5335001513b2998a0ebcad525e901439a47c58baab
+        url: https://download.xnview.com/old_versions/XnView_MP/XnView_MP-1.9.0-linux-x64.tgz
+        sha256: 0751e57813641903d0b99e9fc06fc7caecd9f62424b3d1db742e5b42983dcae7
         strip-components: 0
         x-checker-data:
           type: html
@@ -78,7 +78,8 @@ modules:
       - install -Dm644 com.xnview.XnViewMP.metainfo.xml -t ${FLATPAK_DEST}/share/appdata/
       - install -Dm644 com.xnview.XnViewMP.desktop -t ${FLATPAK_DEST}/share/applications/
       - install -d /app/share/icons
-      - for icon_size in 16 22 24 32 36 48 64 72 96 128 192 256 512; do install -Dm644 share/icons/hicolor/${icon_size}x${icon_size}/apps/com.xnview.XnViewMP.png
+      - for icon_size in 16 22 24 32 36 48 64 72 96 128 192 256 512; do install -Dm644
+        share/icons/hicolor/${icon_size}x${icon_size}/apps/com.xnview.XnViewMP.png
         ${FLATPAK_DEST}/share/icons/hicolor/${icon_size}x${icon_size}/apps/com.xnview.XnViewMP.png;
         done
 cleanup:
