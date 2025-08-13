@@ -58,7 +58,7 @@ modules:
         strip-components: 0
         x-checker-data:
           type: html
-          url: https://www.xnview.com/en/xnviewmp/
+          url: https://www.xnview.com/en/xnview-mp
           version-pattern: <p class="h5 mt-3">Download <strong>XnView MP ([\d\.]+)</strong>:</p>
           url-template: https://download.xnview.com/old_versions/XnView_MP/XnView_MP-$version-linux-x64.tgz
       # Icons, desktop file and metainfo
