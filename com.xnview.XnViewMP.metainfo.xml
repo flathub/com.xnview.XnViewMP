@@ -94,8 +94,11 @@
     <content_attribute id="social-info">mild</content_attribute>
   </content_rating>
   <releases>
-    <release version="1.9.4" date="2025-09-29">
+    <release version="1.9.5" date="2025-10-13">
       <description></description>
+    </release>
+    <release version="1.9.4" date="2025-09-29">
+      <description/>
     </release>
     <release version="1.9.3" date="2025-08-11">
       <description/>
