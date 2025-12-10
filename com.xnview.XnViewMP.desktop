@@ -2,7 +2,7 @@
 Encoding=UTF-8
 Terminal=false
 TryExec=xnview
-Exec=xnview %F
+Exec=env QT_QPA_PLATFORMTHEME=gtk3 xnview %F
 Icon=com.xnview.XnViewMP
 Type=Application
 Categories=Graphics;Viewer;RasterGraphics;2DGraphics;Photography;Qt;
