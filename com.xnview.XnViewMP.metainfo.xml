@@ -64,9 +64,12 @@
   <summary xml:lang="zh_HK">檢視和組織你的圖片</summary>
   <summary xml:lang="zh_TW">檢視和整理您的影像</summary>
   <description>
+    <p>**This is a community package of XnView MP and not officially supported by Pierre-e Gougelet.**</p>
     <p>XnView MP is a versatile and powerful photo viewer, image management, image resizer. XnView is one of the most stable, easy-to-use, and comprehensive photo editors. All common picture and graphics formats are supported (JPEG, TIFF, PNG, GIF, WEBP, PSD, JPEG2000, OpenEXR, camera RAW, HEIC, PDF, DNG, CR2).</p>
   </description>
-  <developer_name>Pierre-e Gougelet</developer_name>
+  <developer id="com.xnview">
+    <name>Pierre-e Gougelet</name>
+  </developer>
   <url type="bugtracker">https://newsgroup.xnview.com/viewforum.php?f=93</url>
   <url type="donation">https://www.xnview.com/en/xnviewmp/#downloads</url>
   <url type="help">https://www.xnview.com/wiki/index.php/XnView_(MP)_User_Guide</url>
