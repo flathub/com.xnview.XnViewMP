@@ -46,8 +46,8 @@ modules:
     buildsystem: simple
     sources:
       - type: archive
-        url: https://download.xnview.com/old_versions/XnView_MP/XnView_MP-1.9.9-linux-x64.tgz
-        sha256: 658cd0913c15b0c3865cb1cb47157a77430268e087ae553c61edfebfd4e618bd
+        url: https://download.xnview.com/old_versions/XnView_MP/XnView_MP-1.9.10-linux-x64.tgz
+        sha256: 9a1468e48e26bf5b584dd51942654d8b143ea036f8628cdebbcfcb61ec62f023
         strip-components: 0
         x-checker-data:
           type: html
