@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop">
+<component type="desktop-application">
   <id>com.xnview.XnViewMP</id>
   <metadata_license>CC0</metadata_license>
   <project_license>LicenseRef-proprietary=https://github.com/flathub/com.xnview.XnViewMP/blob/f3ee192ced27e9b93a58ad7191b61528031cd68c/xnview-license.txt
@@ -93,131 +93,14 @@
     <id>XnView.desktop</id>
   </provides>
   <launchable type="desktop-id">com.xnview.XnViewMP.desktop</launchable>
-  <content_rating type="oars-1.0">
+  <content_rating type="oars-1.1">
     <content_attribute id="social-info">mild</content_attribute>
   </content_rating>
   <releases>
-    <release version="1.9.9" date="2026-01-12">
-      <description></description>
-    </release>
-    <release version="1.9.8" date="2025-12-04">
-      <description/>
-    </release>
-    <release version="1.9.5" date="2025-10-13">
-      <description/>
-    </release>
-    <release version="1.9.4" date="2025-09-29">
-      <description/>
-    </release>
-    <release version="1.9.3" date="2025-08-11">
-      <description/>
-    </release>
-    <release version="1.9.2" date="2025-06-10">
-      <description/>
-    </release>
-    <release version="1.9.1" date="2025-05-28">
-      <description/>
-    </release>
-    <release version="1.8.8" date="2025-04-14">
-    </release>
-    <release version="1.8.6" date="2025-02-14">
-      <url>https://newsgroup.xnview.com/viewtopic.php?f=115&amp;t=48561</url>
-    </release>
-    <release version="1.8.5" date="2025-02-07">
-      <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=48513</url>
-    </release>    
-    <release version="1.8.3" date="2024-11-12">
-      <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=48115</url>
-    </release>
-    <release version="1.8.2" date="2024-10-14">
-      <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=47966</url>
-    </release>
-    <release version="1.8.1" date="2024-10-10">
-      <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=47934</url>
-    </release>
-    <release version="1.8.0" date="2024-08-29">
-      <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=47669</url>
-    </release>
-    <release version="1.7.2" date="2024-06-04">
-      <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=47317</url>
-    </release>
-    <release version="1.7.1" date="2024-04-08">
-      <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=47125</url>
-    </release>
-    <release version="1.7.0" date="2024-03-28">
-      <url>https://forum.xnview.com/viewtopic.php?f=82&amp;t=47070</url>
-    </release>
-    <release version="1.6.5" date="2024-02-22">
-      <url>https://forum.xnview.com/viewtopic.php?f=82&amp;t=46878</url>
-    </release>
-    <release version="1.6.2" date="2023-11-22">
-      <url>https://forum.xnview.com/viewtopic.php?f=82&amp;t=46455</url>
-    </release>
-    <release version="1.6.1" date="2023-10-15">
-      <url>https://forum.xnview.com/viewtopic.php?f=82&amp;t=46271</url>
-    </release>
-    <release version="1.5.5" date="2023-09-08">
-      <url>https://forum.xnview.com/viewtopic.php?f=82&amp;t=46049</url>
-    </release>
-    <release version="1.5.2" date="2023-07-21">
-      <url>https://forum.xnview.com/viewtopic.php?f=82&amp;t=45755</url>
-    </release>
-    <release version="1.4.5" date="2023-05-10">
-      <url>https://forum.xnview.com/viewtopic.php?f=82&amp;t=45288</url>
-    </release>
-    <release version="1.4.4" date="2023-04-18">
-      <url>https://forum.xnview.com/viewtopic.php?f=82&amp;t=45141</url>
-    </release>
-    <release version="1.4.3" date="2023-02-26">
-      <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=44857</url>
-    </release>
-    <release version="1.4.2" date="2023-01-26">
-      <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=44687</url>
-    </release>
-    <release version="1.4.0" date="2022-12-12">
-      <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=44432</url>
-    </release>
-    <release version="1.3.1" date="2022-10-13">
-      <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=44045</url>
-    </release>
-    <release version="1.3.0" date="2022-09-06">
-      <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=43826</url>
-    </release>
-    <release version="1.2.0" date="2022-08-24">
-      <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=43749</url>
-    </release>
-    <release version="1.01" date="2022-08-16">
-      <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=43713</url>
-    </release>
-    <release version="1.00" date="2022-05-03">
-      <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=43307</url>
-    </release>
-    <release version="0.99.7" date="2022-01-13">
-      <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=42885</url>
-    </release>
-    <release version="0.99.6" date="2021-12-10">
-      <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=42747</url>
-    </release>
-    <release version="0.99.5" date="2021-12-09">
-      <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=42737</url>
-    </release>
-    <release version="0.99.4" date="2021-12-02">
-      <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=42683</url>
-    </release>
-    <release version="0.99.1" date="2021-09-23">
-      <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=42377</url>
-    </release>
-    <release version="0.99.0" date="2021-09-16">
-      <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=42333</url>
-    </release>
-    <release version="0.98.4" date="2021-06-01">
-      <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=41963</url>
-    </release>
-    <release version="0.98.3" date="2021-05-06">
-      <url>https://newsgroup.xnview.com/viewtopic.php?f=82&amp;t=41877</url>
-    </release>
-    <release version="0.98.2" date="2021-02-22"/>
-    <release version="0.93.1" date="2019-02-28"/>
-    <release version="0.93" date="2019-01-31"/>
+    <release version="1.9.10" date="2026-01-15"/>
+    <release version="1.9.9" date="2026-01-12"/>
+    <release version="1.9.8" date="2025-12-04"/>
+    <release version="1.9.5" date="2025-10-13"/>
+    <release version="1.9.4" date="2025-09-29"/>
   </releases>
 </component>
