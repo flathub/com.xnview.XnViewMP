@@ -1,6 +1,6 @@
 app-id: com.xnview.XnViewMP
 runtime: org.freedesktop.Platform
-runtime-version: "25.08"
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: xnview
 finish-args:
@@ -28,8 +28,8 @@ modules:
       - --disable-rpath
     sources:
       - type: archive
-        url: https://kerberos.org/dist/krb5/1.22/krb5-1.22.1.tar.gz
-        sha256: 1a8832b8cad923ebbf1394f67e2efcf41e3a49f460285a66e35adec8fa0053af
+        url: https://kerberos.org/dist/krb5/1.22/krb5-1.22.2.tar.gz
+        sha256: 3243ffbc8ea4d4ac22ddc7dd2a1dc54c57874c40648b60ff97009763554eaf13
         x-checker-data:
           type: anitya
           project-id: 13287
@@ -72,8 +72,7 @@ modules:
       - install -Dm644 com.xnview.XnViewMP.desktop -t ${FLATPAK_DEST}/share/applications/
       - install -d /app/share/icons
       - for icon_size in 16 22 24 32 36 48 64 72 96 128 192 256 512; do install -Dm644
-        icons/hicolor/${icon_size}x${icon_size}/apps/com.xnview.XnViewMP.png
-        ${FLATPAK_DEST}/share/icons/hicolor/${icon_size}x${icon_size}/apps/com.xnview.XnViewMP.png;
+        icons/hicolor/${icon_size}x${icon_size}/apps/com.xnview.XnViewMP.png ${FLATPAK_DEST}/share/icons/hicolor/${icon_size}x${icon_size}/apps/com.xnview.XnViewMP.png;
         done
 cleanup:
   - /share/man
