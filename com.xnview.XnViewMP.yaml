@@ -1,6 +1,6 @@
 app-id: com.xnview.XnViewMP
 runtime: org.freedesktop.Platform
-runtime-version: '25.08'
+runtime-version: "25.08"
 sdk: org.freedesktop.Sdk
 command: xnview
 finish-args:
@@ -51,8 +51,8 @@ modules:
         strip-components: 0
         x-checker-data:
           type: html
-          url: https://www.xnview.com/en/xnview-mp
-          version-pattern: <p class="h5 mt-3">Download <strong>XnView MP ([\d\.]+)</strong>:</p>
+          url: https://newsgroup.xnview.com/viewforum.php?f=115
+          version-pattern: <a href=".*" class="topictitle">XnView MP ([\d\.]+)<\/a>
           url-template: https://download.xnview.com/old_versions/XnView_MP/XnView_MP-$version-linux-x64.tgz
       # Icons, desktop file and metainfo
       - type: archive
