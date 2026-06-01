@@ -5,7 +5,7 @@
   <project_license>LicenseRef-proprietary=https://github.com/flathub/com.xnview.XnViewMP/blob/f3ee192ced27e9b93a58ad7191b61528031cd68c/xnview-license.txt
   </project_license>
   <name>XnView MP</name>
-  <summary>View and organize your images</summary>
+  <summary>View, convert and organize your images</summary>
   <summary xml:lang="az">Rəsmlərinizi nümayiş və idarə edin</summary>
   <summary xml:lang="bg">Преглед и организиране на вашите изображения</summary>
   <summary xml:lang="bs">Pogledaj i organizuj svoje slike</summary>
@@ -23,7 +23,7 @@
   <summary xml:lang="eu">Ikusi eta antolatu zure irudiak</summary>
   <summary xml:lang="fa">تصاویر خود را ببنینید و سازمان‌دهی کنید</summary>
   <summary xml:lang="fi">Katsele ja järjestä kuviasi</summary>
-  <summary xml:lang="fr">Afficher et organiser vos images</summary>
+  <summary xml:lang="fr">Afficher, convertir et organiser vos images</summary>
   <summary xml:lang="gl">Ver e organizar as túas imaxes</summary>
   <summary xml:lang="gu">તમારી ઈમેજો જુઓ અને આયોજિત કરો</summary>
   <summary xml:lang="he">צפייה וארגון התמונות שלך</summary>
@@ -64,7 +64,6 @@
   <summary xml:lang="zh_HK">檢視和組織你的圖片</summary>
   <summary xml:lang="zh_TW">檢視和整理您的影像</summary>
   <description>
-    <p>**This is a community package of XnView MP and not officially supported by Pierre-e Gougelet.**</p>
     <p>XnView MP is a versatile and powerful photo viewer, image management, image resizer. XnView is one of the most stable, easy-to-use, and comprehensive photo editors. All common picture and graphics formats are supported (JPEG, TIFF, PNG, GIF, WEBP, PSD, JPEG2000, OpenEXR, camera RAW, HEIC, PDF, DNG, CR2).</p>
   </description>
   <developer id="com.xnview">
@@ -72,9 +71,9 @@
   </developer>
   <url type="bugtracker">https://newsgroup.xnview.com/viewforum.php?f=93</url>
   <url type="donation">https://www.xnview.com/en/xnviewmp/#downloads</url>
-  <url type="help">https://www.xnview.com/wiki/index.php/XnView_(MP)_User_Guide</url>
-  <url type="homepage">https://www.xnview.com/en/xnviewmp/</url>
-  <url type="translate">https://newsgroup.xnview.com/viewforum.php?f=78</url>
+  <url type="help">https://newsgroup.xnview.com/viewforum.php?f=68</url>
+  <url type="homepage">https://www.xnview.com/</url>
+  <url type="translate">https://newsgroup.xnview.com/viewtopic.php?t=47165</url>
   <kudos>
     <kudo>ModernToolkit</kudo>
   </kudos>
