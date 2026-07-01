@@ -18,6 +18,9 @@ finish-args:
   - --filesystem=xdg-config/kdeglobals:ro
   # OpenGL access
   - --device=dri
+cleanup:
+  - /share/man
+  - /XnView/XnView.desktop*
 tags:
   - proprietary
 modules:
@@ -26,6 +29,13 @@ modules:
     config-opts:
       - --disable-static
       - --disable-rpath
+    cleanup:
+      - /bin
+      - /include
+      - /lib/pkgconfig
+      - /sbin
+      - /share/et
+      - /share/examples
     sources:
       - type: archive
         url: https://kerberos.org/dist/krb5/1.22/krb5-1.22.2.tar.gz
@@ -35,32 +45,8 @@ modules:
           project-id: 13287
           stable-only: true
           url-template: https://kerberos.org/dist/krb5/${version0}.${version1}/krb5-${version0}.${version1}.${version2}.tar.gz
-    cleanup:
-      - /bin
-      - /include
-      - /lib/pkgconfig
-      - /sbin
-      - /share/et
-      - /share/examples
   - name: XnViewMP
     buildsystem: simple
-    sources:
-      - type: archive
-        url: https://download.xnview.com/old_versions/XnView_MP/XnView_MP-1.11.2-linux-x64.tgz
-        sha256: f940a7884d4e2f0050a3158902596dc038b91da613d821dea4b8af8cfdb7edd1
-        strip-components: 0
-        x-checker-data:
-          type: html
-          url: https://newsgroup.xnview.com/viewforum.php?f=115
-          version-pattern: <a href="[^"]*" class="topictitle">XnView MP ([\d\.]+)<\/a>
-          url-template: https://download.xnview.com/old_versions/XnView_MP/XnView_MP-$version-linux-x64.tgz
-      # Icons, desktop file and metainfo
-      - type: archive
-        path: icons.tgz
-      - type: file
-        path: com.xnview.XnViewMP.metainfo.xml
-      - type: file
-        path: com.xnview.XnViewMP.desktop
     build-commands:
       - |
         find "XnView" -xtype f -executable \( -iname '*.jpg' -o -iname '*.png' -o -iname '*.txt' -o -iname '*.zip' \) -exec chmod -x {} +;
@@ -74,6 +60,20 @@ modules:
       - for icon_size in 16 22 24 32 36 48 64 72 96 128 192 256 512; do install -Dm644
         icons/hicolor/${icon_size}x${icon_size}/apps/com.xnview.XnViewMP.png ${FLATPAK_DEST}/share/icons/hicolor/${icon_size}x${icon_size}/apps/com.xnview.XnViewMP.png;
         done
-cleanup:
-  - /share/man
-  - /XnView/XnView.desktop*
+    sources:
+      - type: archive
+        url: https://download.xnview.com/old_versions/XnView_MP/XnView_MP-1.11.5-linux-x64.tgz
+        sha256: 736c272f3007a59d9247fb6786f7a4d34d442386c1ceb262fae090261e96a9b7
+        strip-components: 0
+        x-checker-data:
+          type: html
+          url: https://newsgroup.xnview.com/viewforum.php?f=115
+          version-pattern: <a href="[^"]*" class="topictitle">XnView MP ([\d\.]+)<\/a>
+          url-template: https://download.xnview.com/old_versions/XnView_MP/XnView_MP-$version-linux-x64.tgz
+      # Icons, desktop file and metainfo
+      - type: archive
+        path: icons.tgz
+      - type: file
+        path: com.xnview.XnViewMP.metainfo.xml
+      - type: file
+        path: com.xnview.XnViewMP.desktop
