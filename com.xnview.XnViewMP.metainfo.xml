@@ -96,6 +96,7 @@
     <content_attribute id="social-info">mild</content_attribute>
   </content_rating>
   <releases>
+    <release version="1.11.6" date="2026-08-31"/>
     <release version="1.11.5" date="2026-06-29"/>
     <release version="1.11.2" date="2026-04-30"/>
     <release version="1.10.5" date="2026-03-16"/>
@@ -106,6 +107,5 @@
     <release version="1.9.8" date="2025-12-04"/>
     <release version="1.9.5" date="2025-10-13"/>
     <release version="1.9.4" date="2025-09-29"/>
-    <release version="1.11.6" date="2026-08-31"/>
   </releases>
 </component>
