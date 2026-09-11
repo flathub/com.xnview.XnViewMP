@@ -62,14 +62,14 @@ modules:
         done
     sources:
       - type: archive
-        url: https://download.xnview.com/old_versions/XnView_MP/XnView_MP-1.11.5-linux-x64.tgz
-        sha256: 736c272f3007a59d9247fb6786f7a4d34d442386c1ceb262fae090261e96a9b7
+        url: https://download.xnview.com/versions/XnView_MP/XnView_MP-1.11.6-linux-x64.tgz
+        sha256: 3a4a9f80fbf4dcbef0681c78d42cfd52b22eb0129095822e49689452c6287b2c
         strip-components: 0
         x-checker-data:
           type: html
-          url: https://newsgroup.xnview.com/viewforum.php?f=115
-          version-pattern: <a href="[^"]*" class="topictitle">XnView MP ([\d\.]+)<\/a>
-          url-template: https://download.xnview.com/old_versions/XnView_MP/XnView_MP-$version-linux-x64.tgz
+          url: https://www.xnview.com/update.txt
+          version-pattern: \[XnViewMP\]\s*version=([\d.]+)
+          url-template: https://download.xnview.com/versions/XnView_MP/XnView_MP-$version-linux-x64.tgz
       # Icons, desktop file and metainfo
       - type: archive
         path: icons.tgz
