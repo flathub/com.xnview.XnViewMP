@@ -18,6 +18,8 @@ finish-args:
   - --filesystem=xdg-config/kdeglobals:ro
   # OpenGL access
   - --device=dri
+  # See: https://github.com/flathub/com.xnview.XnViewMP/issues/83
+  - --env=QT_QPA_PLATFORMTHEME=gtk3
 cleanup:
   - /share/man
   - /XnView/XnView.desktop*
