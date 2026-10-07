@@ -64,8 +64,8 @@ modules:
         done
     sources:
       - type: archive
-        url: https://download.xnview.com/versions/XnView_MP/XnView_MP-1.11.7-linux-x64.tgz
-        sha256: 8a2f3f50986acae25f6b517829327c81de4005fc0487c139a08c163ebbe094ca
+        url: https://download.xnview.com/versions/XnView_MP/XnView_MP-1.12.1-linux-x64.tgz
+        sha256: 76c9dac7c003033faf941641060cbd83b96edeb142e90b30b5968fd8960b1775
         strip-components: 0
         x-checker-data:
           type: html
