@@ -40,8 +40,8 @@ modules:
       - /share/examples
     sources:
       - type: archive
-        url: https://kerberos.org/dist/krb5/1.22/krb5-1.22.2.tar.gz
-        sha256: 3243ffbc8ea4d4ac22ddc7dd2a1dc54c57874c40648b60ff97009763554eaf13
+        url: https://kerberos.org/dist/krb5/1.22/krb5-1.22.3.tar.gz
+        sha256: fe90af8441ad9fa9b064b8e53077cefb782a96f8a68276b031dc54af1789ff0b
         x-checker-data:
           type: anitya
           project-id: 13287
@@ -64,8 +64,8 @@ modules:
         done
     sources:
       - type: archive
-        url: https://download.xnview.com/versions/XnView_MP/XnView_MP-1.12.2-linux-x64.tgz
-        sha256: 66faa259a1377f5f055b089ea182b8596a0d495790778798b27d763344984e64
+        url: https://download.xnview.com/versions/XnView_MP/XnView_MP-1.12.3-linux-x64.tgz
+        sha256: 54d86e4aaa5996c9a6be53e65b0cbb271d56b3e8d5b9d9b7e6df2917c91b5339
         strip-components: 0
         x-checker-data:
           type: html
